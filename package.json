@@ -1,0 +1,22 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "install": "napa"
+  },
+  "napa": {
+    "angular": "angular/bower-angular",
+    "angular-route": "angular/bower-angular-route"
+  },
+  "author":"",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^4.0.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "napa": "^1.2.0"
+  }
+}
