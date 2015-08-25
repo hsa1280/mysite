@@ -1,0 +1,9 @@
+How to run the http-server in OSX?
+cd /usr/local/Cellar/node/0.12.2_1/libexec/npm/lib/node_modules/http-server
+node bin/http-server /Users/shian_mac/shian-project/mysite
+
+How to set up the project?
+1. git clone the project, then run npm install, this command will create a package.json, later we can add dependencies to package.json, whenever we run npm install,
+those dependencies will be downloaded to node_modules folder.
+2. Create Gruntfile.js, add some tasks in that file, then run grunt command, this command will run all tasks defined in the Gruntfile.js, also it compiles source code to a destination file
+3. Run http-server to host the app, the compiled file will be hosted.
